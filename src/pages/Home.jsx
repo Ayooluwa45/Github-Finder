@@ -1,10 +1,11 @@
 import React from "react";
-import UserResult from "../Components/users/UserResult";
+import UserResults from "../Components/users/UserResults";
+
 
 function Home() {
   return (
     <>
-      <UserResult />
+     <UserResults/>
     </>
   );
 }
