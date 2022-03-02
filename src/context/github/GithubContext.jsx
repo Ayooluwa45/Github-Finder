@@ -15,8 +15,9 @@ export const GithubProvider = ({ children }) => {
   
   const [state, dispatch] =useReducer(githubReducer, initialState)
   
-
+  
   const searchUsers = async (text) => {
+    
     const params = new URLSearchParams({
       q: text
     })
